@@ -1,10 +1,11 @@
 {
-  "name": "src",
+  "name": "fastify-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Fast API built using Node.JS, MongoDB, Fastify and Swagger",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/nodemon/bin/nodemon.js ./src/index.js"
   },
   "author": "",
   "license": "ISC",
